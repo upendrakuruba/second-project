@@ -1,0 +1,6 @@
+from ipl.views import *
+from django.urls import Path
+app_name='king'
+urlpatterns=[
+    path("virot/",virot,name="virot"),
+]
